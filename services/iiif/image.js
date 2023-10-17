@@ -28,17 +28,17 @@ exports.getRepresentativeImage = async (resource, preferredSize = 1200) => {
     firstCanvas.body.service[0],
     preferredSize
   );
-  if (firstCanvasService !== {}) {
-    return [
-      {
-        id: firstCanvasService.id,
-        type: "Image",
-        format: "image/jpeg",
-        width: firstCanvasService.width,
-        height: firstCanvasService.height,
-      },
-    ];
-  } else {
-    return firstCanvas.thumbnail ? firstCanvas.thumbnail : [];
-  }
+  // if (firstCanvasService !== {}) {
+  //   return [
+  //     {
+  //       id: firstCanvasService.id,
+  //       type: "Image",
+  //       format: "image/jpeg",
+  //       width: firstCanvasService.width,
+  //       height: firstCanvasService.height,
+  //     },
+  //   ];
+  // } else {
+  return firstCanvas.thumbnail ? firstCanvas.thumbnail : [];
+  // }
 };

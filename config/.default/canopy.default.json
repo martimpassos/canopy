@@ -1,32 +1,26 @@
 {
   "prod": {
-    "label": { "none": ["Canopy IIIF"] },
+    "label": { "none": ["Collection Title"] },
     "summary": {
-      "none": [
-        "a IIIF Collection sourced site generator in Next.js for digital collections, humanities, and exhibitions"
-      ]
+      "none": ["Brief description of the site and its contents."]
     },
-    "collection": "https://digital.lib.utk.edu/assemble/collection/gsmrc/wcc",
+    "collection": "https://example.org/iiif/collection.json",
     "featured": [
-      "https://digital.lib.utk.edu/assemble/manifest/wcc/350",
-      "https://digital.lib.utk.edu/assemble/manifest/wcc/313",
-      "https://digital.lib.utk.edu/assemble/manifest/wcc/356"
+      "https://example.org/manifest-1.json",
+      "https://example.org/manifest-2.json"
     ],
-    "metadata": ["Subject", "Date", "Place"]
+    "metadata": ["Date", "Subject"]
   },
   "dev": {
-    "label": { "none": ["Canopy IIIF"] },
+    "label": { "none": ["Collection Title"] },
     "summary": {
-      "none": [
-        "a IIIF Collection sourced site generator in Next.js for digital collections, humanities, and exhibitions"
-      ]
+      "none": ["Brief description of the site and its contents."]
     },
-    "collection": "https://digital.lib.utk.edu/assemble/collection/gsmrc/wcc",
+    "collection": "https://example.org/iiif/collection.json",
     "featured": [
-      "https://digital.lib.utk.edu/assemble/manifest/wcc/350",
-      "https://digital.lib.utk.edu/assemble/manifest/wcc/313",
-      "https://digital.lib.utk.edu/assemble/manifest/wcc/356"
+      "https://example.org/manifest-1.json",
+      "https://example.org/manifest-2.json"
     ],
-    "metadata": ["Subject", "Date", "Place"]
+    "metadata": ["Date", "Subject"]
   }
 }
