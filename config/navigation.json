@@ -2,37 +2,37 @@
   "primary": [
     {
       "path": "/works",
-      "text": "Objetos"
+      "text": "Works"
     },
     {
       "path": "/metadata",
-      "text": "Metadados"
+      "text": "Metadata"
     },
     {
       "path": "/map",
-      "text": "Mapa"
+      "text": "Map"
     },
     {
       "path": "/about",
-      "text": "Sobre"
+      "text": "About"
     }
   ],
   "about": [
     {
       "path": "/about",
-      "text": "Sobre"
+      "text": "About"
     },
     {
       "path": "/about/documentation",
-      "text": "Documentação"
+      "text": "Documentation"
     },
     {
       "path": "/about/example",
-      "text": "Exemplo de markdown"
+      "text": "Markdown Example"
     },
     {
       "path": "/about/history",
-      "text": "Histórico do projeto"
+      "text": "Project History"
     }
   ]
 }
