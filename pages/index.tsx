@@ -54,32 +54,20 @@ const Index: React.FC<IndexProps> = ({ featuredItem, collections }) => {
         <Hero collection={hero} />
       </HeroWrapper>
       <Container>
-        <Heading as="h2">About Canopy</Heading>
+        <Heading as="h2">Sobre a coleção</Heading>
         <div>
           <p>
-            <strong>Canopy IIIF</strong> is a purely{" "}
-            <a href="https://iiif.io/">IIIF</a> sourced site generator using
-            Next.js. Canopy is an experimental application that will standup a
-            browseable and searchable digital collections style site entirely
-            from a{" "}
-            <a href="https://iiif.io/api/presentation/3.0/#51-collection">
-              IIIF Collection
-            </a>{" "}
-            and the resources it references.
+          O acervo impressiona por indicar um ineditismo capaz de surpreender especialistas. 
+          É o caso de Alexei Bueno, responsável pela seleção iconográfica e autor do texto que, 
+          no livro, descreve as imagens e as situa ao longo de capítulos repletos de informação histórica. 
+          “O conjunto mais significativo é o dedicado ao Morro do Castelo, antes, durante e depois 
+          de sua destruição. As fotos têm uma luminosidade linda, parece que foram feitas hoje”, 
+          explica o escritor. Berço da cidade, o morro foi posto abaixo, a jatos d’água, em obra 
+          que ignorou preocupações maiores com a preservação da memória. 
+          “Os ossos de todos os fundadores do Rio de Janeiro, heroicos companheiros de Estácio de Sá, 
+          e os dos primeiros povoadores, que se encontravam todos, evidentemente, sepultados na Sé Velha 
+          ou na Igreja dos Jesuítas, desceram junto com a lama” - Pedro Tinoco, Veja Rio, 2017
           </p>
-          <ButtonWrapper>
-            <Button href="/about" buttonType="primary">
-              Read More &nbsp;
-              <ArrowRightIcon />
-            </Button>
-            <Button
-              href="https://github.com/canopy-iiif/canopy-iiif"
-              buttonType="secondary"
-            >
-              View Code &nbsp;
-              <GitHubLogoIcon />
-            </Button>
-          </ButtonWrapper>
         </div>
         <Related
           collections={collections}

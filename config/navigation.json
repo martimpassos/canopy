@@ -1,0 +1,38 @@
+{
+  "primary": [
+    {
+      "path": "/works",
+      "text": "Objetos"
+    },
+    {
+      "path": "/metadata",
+      "text": "Metadados"
+    },
+    {
+      "path": "/map",
+      "text": "Mapa"
+    },
+    {
+      "path": "/about",
+      "text": "Sobre"
+    }
+  ],
+  "about": [
+    {
+      "path": "/about",
+      "text": "Sobre"
+    },
+    {
+      "path": "/about/documentation",
+      "text": "Documentação"
+    },
+    {
+      "path": "/about/example",
+      "text": "Exemplo de markdown"
+    },
+    {
+      "path": "/about/history",
+      "text": "Histórico do projeto"
+    }
+  ]
+}
