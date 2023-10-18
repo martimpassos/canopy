@@ -39,6 +39,6 @@ exports.getRepresentativeImage = async (resource, preferredSize = 1200) => {
   //     },
   //   ];
   // } else {
-  return firstCanvas.thumbnail ? firstCanvas.thumbnail : [];
+  return resource.thumbnail ? resource.thumbnail : [];
   // }
 };
